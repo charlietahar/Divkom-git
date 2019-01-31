@@ -17,3 +17,18 @@ git rm "nama file 1"
 
 Staging ke Repository:
 git commit -m "Pesan kalian"
+
+Buat branch baru:
+git branch <Nama Branch>
+
+Cek branch yang ada:
+git branch
+
+Pindah branch
+git checkout <Nama Branch>
+
+Cara merge:
+    Pindah ke branch yang mau di merge (cth: master)
+    git checkout master
+    
+    git merge branch-yang-mau-di-merge
