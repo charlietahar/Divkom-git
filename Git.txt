@@ -1,0 +1,18 @@
+Buka Terminal: 
+    Ctrl + `
+
+Setup name:
+git config --global user.name "Your Name"
+git config --global user.email "Your email"
+
+Buat Repository Baru:
+git init
+
+Masukin file dari Untracked ke Staging:
+git add "nama file 1" "nama file 2"
+git add directory/*
+git add *
+git add .
+
+Staging ke Repository:
+git commit -m "Pesan kalian"
